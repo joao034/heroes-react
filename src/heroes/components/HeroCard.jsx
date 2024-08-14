@@ -8,7 +8,7 @@ export const HeroCard = ({
     first_appearance,
     characters }) => {
 
-    const imageUrl = `/heroes/${id}.jpg`
+    const imageUrl = `/assets/heroes/${id}.jpg`
     const charactersArray = characters.split(',')
 
     return (

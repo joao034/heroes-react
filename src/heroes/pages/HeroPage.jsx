@@ -18,7 +18,7 @@ export const HeroPage = () => {
         <div className="card card-side bg-base-100 shadow-xl">
             <figure>
                 <img
-                    src={`/heroes/${heroe.id}.jpg`}
+                    src={`/assets/heroes/${heroe.id}.jpg`}
                     alt="Album" />
             </figure>
             <div className="card-body">
