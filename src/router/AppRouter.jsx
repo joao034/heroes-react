@@ -16,6 +16,10 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
+                path: '/',
+                element: <MarvelPage />
+            },
+            {
                 path: 'marvel',
                 element: <MarvelPage />
             },
